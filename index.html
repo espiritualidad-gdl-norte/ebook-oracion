@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ebook de oración · Espiritualidad GDL Norte</title>
+<meta name="description" content="Prepara tu confesión y vive la Hora Eucarística. Una propuesta de los jóvenes de la sección GDL Norte de Regnum Christi.">
+<meta name="theme-color" content="#88272F">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ebook de oración">
+<meta property="og:description" content="Prepara tu confesión y vive la Hora Eucarística · Espiritualidad, sección de jóvenes GDL Norte">
+<meta property="og:url" content="https://espiritualidad-gdl-norte.github.io/ebook-oracion/">
+<meta property="og:image" content="https://espiritualidad-gdl-norte.github.io/ebook-oracion/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/rc-logo-black.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="preload" href="assets/fonts/raleway-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/raleway-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Raleway;font-weight:300;font-display:swap;src:url(assets/fonts/raleway-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:Raleway;font-weight:700;font-display:swap;src:url(assets/fonts/raleway-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:Raleway;font-weight:900;font-display:swap;src:url(assets/fonts/raleway-latin-900-normal.woff2) format("woff2")}
+@font-face{font-family:Montserrat;font-weight:400;font-display:swap;src:url(assets/fonts/montserrat-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Montserrat;font-weight:400;font-style:italic;font-display:swap;src:url(assets/fonts/montserrat-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:Montserrat;font-weight:600;font-display:swap;src:url(assets/fonts/montserrat-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Montserrat;font-weight:700;font-display:swap;src:url(assets/fonts/montserrat-latin-700-normal.woff2) format("woff2")}
+:root{--rojo:#88272F;--rojo2:#8E1731;--oro:#CCA03E;--negro:#1C1C1C;--gris:#F1F1F1;--txt:#2B2B2B;--sub:#5E5E5E;--rosa:#EBCBD0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:Montserrat,system-ui,sans-serif;color:var(--txt);background:#E6E6E6;font-size:17px;line-height:1.55}
+main{max-width:640px;margin:0 auto;background:#fff;box-shadow:0 0 40px rgba(0,0,0,.08)}
+section{scroll-margin-top:0}
+a{color:inherit}
+b{font-weight:700}
+.band{height:132px;display:flex;align-items:center;padding:0 24px}
+.band svg{width:76px;height:76px}
+.rojo{background:var(--rojo2)}.oro{background:var(--oro)}.negro{background:var(--negro)}
+.wrap{padding:36px 24px 48px}
+h1{font-family:Raleway,sans-serif;font-weight:300;font-size:44px;line-height:1.02;letter-spacing:-.5px;color:var(--negro)}
+h1 strong{font-weight:900;display:block}
+.sq{width:16px;height:16px;background:var(--rojo2);margin-top:18px}
+.lead{color:var(--sub);margin-top:16px;font-size:16px}
+h2{font-family:Raleway,sans-serif;font-weight:300;font-size:26px;line-height:1.15;color:var(--negro);margin:36px 0 6px}
+h2:before{content:"";display:inline-block;width:12px;height:12px;background:var(--rojo2);margin-right:12px;vertical-align:middle;position:relative;top:-2px}
+h2 strong{font-weight:900}
+.q{font-weight:700;margin:12px 0 10px;color:var(--negro)}
+ul.l{list-style:none}
+ul.l li{position:relative;padding-left:22px;margin-bottom:9px;font-size:16px}
+ul.l li:before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;background:var(--rojo2)}
+.box{background:var(--gris);border-left:6px solid var(--rojo);padding:20px 20px;margin-top:24px}
+.box p+p{margin-top:10px}
+/* portada */
+.cover{background:var(--rojo);color:#fff;min-height:100svh;display:flex;flex-direction:column;align-items:flex-start;padding:48px 28px 28px}
+.cover .logo{height:118px;align-self:center;margin-top:6vh}
+.cover .k{font-family:Raleway;font-weight:300;font-size:52px;line-height:1;color:var(--rosa);margin-top:auto}
+.cover .t{font-family:Raleway;font-weight:900;font-size:76px;line-height:1;letter-spacing:-1px}
+.cover .wsq{width:18px;height:18px;background:#fff;margin-top:22px}
+.cover .s{font-family:Raleway;font-weight:300;font-size:22px;margin-top:24px}
+.cover .s b{font-weight:900}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px;width:100%}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 22px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none}
+.btn.w{background:#fff;color:var(--rojo)}
+.btn.o{border:2px solid rgba(255,255,255,.7);color:#fff}
+.btn.r{background:var(--rojo);color:#fff}
+.cover .ft{margin-top:auto;padding-top:40px;font-size:13px;letter-spacing:.5px;color:var(--rosa);align-self:center}
+/* índice */
+.legend{display:flex;gap:12px;align-items:center;border:2px solid var(--rojo);border-radius:28px;padding:12px 16px;margin-top:14px;font-size:14.5px;line-height:1.4}
+.legend svg{flex:none;width:30px;height:30px}
+nav.ix{margin-top:10px}
+nav.ix a{display:flex;align-items:baseline;gap:10px;text-decoration:none;padding:13px 0;border-bottom:1px solid #E4E4E4;font-family:Raleway;font-weight:300;font-size:23px;color:var(--negro);min-height:48px}
+nav.ix a strong{font-weight:900}
+nav.ix a.sub{font-family:Montserrat;font-size:16px;color:#555;padding:12px 0 12px 22px}
+nav.ix a:after{content:"›";margin-left:auto;font-family:Raleway;font-weight:900;color:var(--rojo);font-size:24px;line-height:1}
+nav.ix a:active{background:#FAF1F2}
+/* oraciones */
+.vr p{font-size:16px;line-height:1.45}
+.vr .v{margin-top:10px}
+.vr .r{font-weight:700;color:var(--rojo)}
+.two{display:grid;grid-template-columns:1fr;gap:18px;margin-top:16px}
+.two .tag{font-weight:600;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;color:var(--rojo);margin-bottom:6px}
+.lat{font-style:italic;color:#555}
+@media(min-width:520px){.two{grid-template-columns:1fr 1fr}}
+.contri{background:var(--rojo);color:#fff;padding:44px 28px 52px}
+.contri .k{font-family:Raleway;font-weight:300;font-size:30px;color:var(--rosa)}
+.contri .t{font-family:Raleway;font-weight:900;font-size:56px;line-height:1;letter-spacing:-.5px}
+.contri .i{color:var(--rosa);margin-top:22px;font-size:15.5px}
+.contri .pr{border-left:6px solid var(--oro);padding:4px 0 4px 20px;margin-top:30px}
+.contri .pr p{font-family:Raleway;font-weight:300;font-size:27px;line-height:1.28}
+.contri .pr p+p{margin-top:16px}
+.contri .pr b{font-weight:900}
+.card{background:var(--gris);border-radius:14px;padding:22px;margin-top:18px}
+.card .tag{font-weight:600;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;color:var(--rojo)}
+.card h3{font-family:Raleway;font-weight:900;font-size:26px;color:var(--negro);margin:4px 0 8px}
+.card .priv{font-size:14px;color:#6B6B6B;margin-top:8px}
+.card .btn{margin-top:14px}
+.verse{font-family:Raleway;font-weight:300;font-size:26px;line-height:1.25;margin-top:44px;color:var(--negro)}
+.verse b{font-weight:900}
+footer{text-align:center;padding:40px 24px 110px;background:#fff}
+footer img{height:84px}
+footer p{font-size:13px;letter-spacing:.5px;color:#6B6B6B;margin-top:8px}
+/* botón flotante */
+.fab{position:fixed;right:max(16px,calc(50vw - 320px + 16px));bottom:calc(18px + env(safe-area-inset-bottom));z-index:9;display:flex;align-items:center;gap:8px;background:var(--negro);color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:0 18px;height:50px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.25);opacity:0;transform:translateY(12px);pointer-events:none;transition:.25s}
+.fab.on{opacity:1;transform:none;pointer-events:auto}
+@media print{.fab,.btns{display:none}}
+</style>
+</head>
+<body>
+<main>
+
+<!-- PORTADA -->
+<header class="cover" id="inicio">
+ <img class="logo" src="assets/rc-logo-white.png" alt="Regnum Christi">
+ <p class="k">ebook de</p>
+ <p class="t">oración</p>
+ <div class="wsq"></div>
+ <p class="s">confesión <b>·</b> hora eucarística</p>
+ <div class="btns">
+  <a class="btn w" href="#indice">Comenzar ›</a>
+  <a class="btn o" href="assets/ebook-oracion.pdf" download>Descargar PDF</a>
+ </div>
+ <p class="ft">espiritualidad · sección de jóvenes · GDL Norte</p>
+</header>
+
+<!-- ANTES DE COMENZAR + ÍNDICE -->
+<section id="indice">
+ <div class="band oro"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M100 50 C80 38 52 36 26 42 V160 C52 154 80 156 100 168 C120 156 148 154 174 160 V42 C148 36 120 38 100 50Z"/><path d="M100 50 V168"/><path d="M137 70 V110 M123 84 H151"/></svg></div>
+ <div class="wrap">
+  <h1>antes de <strong>comenzar</strong></h1>
+  <div class="sq"></div>
+  <div class="box">
+   <p>Este ebook es una propuesta generada por <b>los jóvenes de la sección</b> para motivar el crecimiento de la vida espiritual dentro de la sección.</p>
+   <p>Si quieres aportar tus comentarios, compártelos con los <b>consagrados de la sección</b> o con los <b>sacerdotes</b>; ellos los harán llegar al equipo de Espiritualidad.</p>
+  </div>
+  <h2><strong>índice</strong></h2>
+  <div class="legend">
+   <svg viewBox="0 0 48 48" fill="none" stroke="#88272F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 26 V10 a3.5 3.5 0 0 1 7 0 V24 M27 22 a3.5 3.5 0 0 1 7 0 V26 M34 24 a3.5 3.5 0 0 1 7 0 V32 c0 7-5 12-12 12 h-2 c-5 0-8-2-11-6 L9 30 a3.5 3.5 0 0 1 5-5 L20 30"/><path d="M14 8 L10 5 M12 14 H7 M33 8 L37 5"/></svg>
+   <p><b style="color:var(--rojo)">Índice interactivo:</b> toca un tema para ir directo a él. Para volver, usa el botón <b style="color:var(--rojo)">Índice</b> que aparece abajo.</p>
+  </div>
+  <nav class="ix" aria-label="Índice">
+   <a href="#confesion">prepara tu&nbsp;<strong>confesión</strong></a>
+   <a class="sub" href="#examen">examen de conciencia</a>
+   <a class="sub" href="#contricion">acto de contrición</a>
+   <a href="#hora-eucaristica">hora&nbsp;<strong>eucarística</strong></a>
+   <a class="sub" href="#letanias">letanías al Corazón de Cristo</a>
+   <a class="sub" href="#tantum-ergo">tantum ergo y oración de cierre</a>
+   <a class="sub" href="#bendicion">bendición y alabanzas de desagravio</a>
+   <a href="#recursos">links y&nbsp;<strong>recursos</strong></a>
+  </nav>
+ </div>
+</section>
+
+<!-- PREPARA TU CONFESIÓN -->
+<section id="confesion">
+ <div class="band rojo"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M100 168 C60 138 30 112 30 80 C30 58 46 44 64 44 C80 44 92 54 100 66 C108 54 120 44 136 44 C154 44 170 58 170 80 C170 112 140 138 100 168Z"/><path d="M100 128 V78 M84 94 H116"/><path d="M100 40 C92 30 96 20 100 12 C104 20 108 30 100 40Z"/></svg></div>
+ <div class="wrap">
+  <h1>prepara tu <strong>confesión</strong></h1>
+  <div class="sq"></div>
+  <p class="lead">Una guía para examinar tu conciencia, acercarte al sacramento de la reconciliación y adorar a Jesús en la Eucaristía.</p>
+ </div>
+</section>
+
+<!-- EXAMEN -->
+<section id="examen">
+ <div class="band oro"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M30 50 H130 A12 12 0 0 1 142 62 V112 A12 12 0 0 1 130 124 H78 L52 146 V124 H42 A12 12 0 0 1 30 112Z"/><path d="M142 80 H158 A12 12 0 0 1 170 92 V138 A12 12 0 0 1 158 150 H152 V170 L130 150 H96 A12 12 0 0 1 84 138 V124"/><path d="M86 104 C74 96 76 82 86 70 C96 82 98 96 86 104Z"/></svg></div>
+ <div class="wrap">
+  <h1>examen de <strong>conciencia</strong></h1>
+  <p class="lead">Prepara tu corazón y tu mente antes de entrar con el sacerdote a la confesión.</p>
+
+  <h2>mi relación con <strong>Dios</strong></h2>
+  <p class="q">¿Está Dios en el centro de mi vida o solo acudo a Él cuando lo necesito?</p>
+  <ul class="l">
+   <li>¿He dejado la oración, la Misa dominical o mi relación con Dios por comodidad, distracciones o falta de interés?</li>
+   <li>¿He puesto el éxito, el dinero, la aprobación de los demás, una relación o mis propios planes por encima de Dios?</li>
+   <li>¿He dudado de su amor, desconfiado de Él o me he alejado cuando las cosas no salen como quiero?</li>
+   <li>¿He recurrido a la superstición, el tarot, los horóscopos, la adivinación o prácticas contrarias a mi fe?</li>
+   <li>¿He usado el nombre de Dios sin respeto, me he avergonzado de mi fe o he evitado vivirla por miedo al qué dirán?</li>
+   <li>¿He recibido la Eucaristía consciente de estar en pecado mortal?</li>
+  </ul>
+
+  <h2>mi relación con <strong>los demás</strong></h2>
+  <p class="q">¿Amo a las personas como Dios me llama a amarlas?</p>
+  <ul class="l">
+   <li>¿He sido impaciente, indiferente, hiriente o despectivo con mi familia, mis amigos o las personas que me rodean?</li>
+   <li>¿He guardado rencor, alimentado envidias, juzgado a otros o hablado mal de alguien a sus espaldas?</li>
+   <li>¿He mentido, manipulado, incumplido promesas o utilizado a alguien para conseguir lo que quería?</li>
+   <li>¿He sido egoísta con mi tiempo y mis talentos, ignorando a quien necesitaba mi ayuda?</li>
+   <li>¿Me ha costado pedir perdón, perdonar de corazón o reconocer que estaba equivocado?</li>
+   <li>¿He tratado a los demás con dignidad y respeto en mis relaciones afectivas? ¿He buscado amar de verdad o satisfacer mis propios deseos?</li>
+   <li>¿He faltado a la castidad en mis pensamientos consentidos, acciones o consumo de pornografía? ¿He utilizado a otra persona o permitido que me utilicen?</li>
+   <li>¿He sido causa de división, críticas destructivas o mal ejemplo entre mis amigos, familia o comunidad?</li>
+  </ul>
+
+  <h2>mi vida, mis decisiones <strong>y mi vocación</strong></h2>
+  <p class="q">¿Estoy usando mi libertad para amar y hacer el bien?</p>
+  <ul class="l">
+   <li>¿He antepuesto la diversión, las redes sociales o la comodidad a mis responsabilidades y compromisos?</li>
+   <li>¿He actuado con deshonestidad en mis estudios o trabajo, haciendo trampa, plagiando, mintiendo o apropiándome del mérito de otros?</li>
+   <li>¿He sido injusto con el dinero, egoísta con mis bienes o indiferente ante las necesidades de los demás?</li>
+   <li>¿He dejado que el orgullo, la vanidad, la comparación o la necesidad de aprobación determinen mis decisiones?</li>
+   <li>¿He descuidado mi cuerpo y mi libertad mediante excesos con el alcohol, las drogas u otros hábitos que me dominan?</li>
+   <li>¿He buscado siempre tener la razón, controlar a los demás o imponer mi voluntad?</li>
+   <li>¿He desperdiciado los talentos que Dios me ha dado por miedo, pereza o comodidad?</li>
+   <li>¿He descuidado mi responsabilidad de servir, ayudar y contribuir al bien de quienes me rodean?</li>
+  </ul>
+
+  <h2>mi corazón <strong>ante Dios</strong></h2>
+  <p class="q">¿Qué necesita hoy mi corazón para volver a Él?</p>
+  <ul class="l">
+   <li>¿He reconocido mis pecados con sinceridad o he buscado excusas para justificarme?</li>
+   <li>¿He callado deliberadamente algún pecado grave en una confesión anterior?</li>
+   <li>¿He dejado de hacer el bien que sabía que debía hacer?</li>
+   <li>¿Hay alguna persona a quien deba pedir perdón, algún daño que reparar o alguna conversación que deba tener?</li>
+   <li>¿Reconozco aquello que me lleva a caer repetidamente? ¿Estoy dispuesto a poner medios concretos para cambiar?</li>
+   <li>¿Confío en la misericordia de Dios o me cuesta creer que puede perdonarme y ayudarme a comenzar de nuevo?</li>
+  </ul>
+ </div>
+</section>
+
+<!-- ACTO DE CONTRICIÓN -->
+<section id="contricion" class="contri">
+ <p class="k">acto de</p>
+ <p class="t">contrición</p>
+ <p class="i">Al terminar de confesar tus pecados al sacerdote, arrepiéntete de corazón: siente el dolor de haber ofendido a Dios y haz el propósito de no volver a pecar.</p>
+ <div class="pr">
+  <p>Dios mío, me arrepiento de todo corazón por haberte ofendido, porque eres <b>infinitamente bueno</b> y has muerto por mí en la cruz.</p>
+  <p><b>Dame tu santa gracia para no ofenderte más. Amén.</b></p>
+ </div>
+</section>
+
+<!-- HORA EUCARÍSTICA -->
+<section id="hora-eucaristica">
+ <div class="band negro"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="100" cy="78" r="26"/><circle cx="100" cy="78" r="44"/><path d="M100 18 V30 M100 126 V138 M40 78 H52 M148 78 H160 M58 36 L66 44 M134 112 L142 120 M142 36 L134 44 M66 112 L58 120"/><path d="M100 138 V168 M78 182 H122 M86 168 H114 L122 182"/></svg></div>
+ <div class="wrap">
+  <h1>hora <strong>eucarística</strong></h1>
+  <p class="lead">Orden de la adoración: exposición · oración personal · letanías · <i>Tantum ergo</i> · oración · bendición · alabanzas de desagravio · reserva.</p>
+
+  <h2 id="letanias">letanías al <strong>Corazón de Cristo</strong></h2>
+  <div class="vr">
+   <p class="v">V/. Reino del Corazón de Jesucristo,</p><p class="r">R/. establécete en mi corazón.</p>
+   <p class="v">V/. Humildad del Corazón de Jesucristo,</p><p class="r">R/. modela mi corazón.</p>
+   <p class="v">V/. Alegría del Corazón de Jesucristo,</p><p class="r">R/. dilata mi corazón.</p>
+   <p class="v">V/. Amor del Corazón de Jesucristo,</p><p class="r">R/. inflama mi corazón.</p>
+   <p class="v">V/. Luz del Corazón de Jesucristo,</p><p class="r">R/. ilumina mi corazón.</p>
+   <p class="v">V/. Ciencia del Corazón de Jesucristo,</p><p class="r">R/. instruye mi corazón.</p>
+   <p class="v">V/. Silencio del Corazón de Jesucristo,</p><p class="r">R/. habla a mi corazón.</p>
+   <p class="v">V/. Voluntad del Corazón de Jesucristo,</p><p class="r">R/. gobierna mi corazón.</p>
+   <p class="v">V/. Paciencia del Corazón de Jesucristo,</p><p class="r">R/. soporta mi corazón.</p>
+   <p class="v">V/. Celo del Corazón de Jesucristo,</p><p class="r">R/. abraza mi corazón.</p>
+   <p class="v">V/. Obediencia del Corazón de Jesucristo,</p><p class="r">R/. somete mi corazón.</p>
+   <p class="v">V/. Constancia del Corazón de Jesucristo,</p><p class="r">R/. haz fiel mi corazón.</p>
+   <p class="v">V/. Fortaleza del Corazón de Jesucristo,</p><p class="r">R/. sostén mi vocación.</p>
+  </div>
+ </div>
+</section>
+
+<!-- TANTUM ERGO -->
+<section id="tantum-ergo">
+ <div class="band oro"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M56 40 H144 C144 86 126 108 100 112 C74 108 56 86 56 40Z"/><path d="M100 112 V150 M70 166 H130 M78 150 H122 L130 166"/><circle cx="100" cy="24" r="12"/><path d="M100 18 V30 M94 24 H106"/></svg></div>
+ <div class="wrap">
+  <h1><strong>tantum ergo</strong></h1>
+  <div class="two">
+   <div><p class="tag">Latín</p><p class="lat">Tantum ergo Sacraméntum<br>venerémur cérnui:<br>et antíquum documéntum<br>novo cedat rítui:<br>præstet fides suppleméntum<br>sénsuum deféctui.<br><br>Genitóri, Genitóque<br>laus et iubilátio,<br>salus, honor, virtus quoque<br>sit et benedíctio:<br>procedénti ab utróque<br>compar sit laudátio. Amen.</p></div>
+   <div><p class="tag">Español</p><p>A tan alto Sacramento<br>veneremos reverentes,<br>y el antiguo orden litúrgico<br>ceda el paso al nuevo rito.<br>La fe supla lo que falta<br>al defecto de los sentidos.<br><br>Al Engendrador y al Engendrado<br>—el Padre y el Hijo—<br>alabanza, alegría, salud,<br>honor, fuerza y bendición.<br>Y al que procede de ambos<br>—el Espíritu Santo—<br>vaya una alabanza igual.</p></div>
+  </div>
+  <div class="two" style="margin-top:22px">
+   <p class="lat">V/. Panem de cælo præstitísti eis.<br><b style="font-style:normal;color:var(--rojo)">R/. Omne delectaméntum in se habéntem.</b></p>
+   <p>V/. Les diste pan del cielo.<br><b style="color:var(--rojo)">R/. Que contiene en sí todo deleite.</b></p>
+  </div>
+  <h2>oración <strong>de cierre</strong></h2>
+  <div class="two">
+   <p class="lat">Orémus. Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quæsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári, ut redemptiónis tuæ fructum in nobis iúgiter sentiámus. Qui vivis et regnas in sæcula sæculórum. Amen.</p>
+   <p>Oremos. Oh Dios, que en este sacramento admirable nos dejaste el memorial de tu pasión, te pedimos nos concedas venerar de tal modo los sagrados misterios de tu Cuerpo y de tu Sangre, que experimentemos constantemente en nosotros el fruto de tu redención. Tú que vives y reinas por los siglos de los siglos. Amén.</p>
+  </div>
+ </div>
+</section>
+
+<!-- BENDICIÓN + ALABANZAS -->
+<section id="bendicion">
+ <div class="band rojo"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M100 172 C58 140 28 112 28 78 C28 54 46 38 66 38 C82 38 94 48 100 60 C106 48 118 38 134 38 C154 38 172 54 172 78 C172 112 142 140 100 172Z"/><path d="M60 92 C80 108 120 108 140 92"/><path d="M100 132 V86 M86 100 H114"/></svg></div>
+ <div class="wrap">
+  <h1>bendición <strong>solemne</strong></h1>
+  <div class="box"><p>El sacerdote toma la custodia y bendice a la asamblea con el Santísimo. Permanece de rodillas, en silencio, y recibe la bendición de Jesús.</p></div>
+  <h2>alabanzas <strong>de desagravio</strong></h2>
+  <p class="lead" style="margin-top:4px">Se repiten todos juntos, frase por frase:</p>
+  <ul class="l" style="margin-top:14px">
+   <li>Bendito sea Dios.</li>
+   <li>Bendito sea su santo Nombre.</li>
+   <li>Bendito sea Jesucristo, verdadero Dios y verdadero hombre.</li>
+   <li>Bendito sea el nombre de Jesús.</li>
+   <li>Bendito sea su sacratísimo Corazón.</li>
+   <li>Bendita sea su preciosísima Sangre.</li>
+   <li><b>Bendito sea Jesús en el Santísimo Sacramento del altar.</b></li>
+   <li>Bendito sea el Espíritu Santo Paráclito.</li>
+   <li>Bendita sea la excelsa Madre de Dios, María Santísima.</li>
+   <li>Bendita sea su santa e inmaculada Concepción.</li>
+   <li>Bendita sea su gloriosa Asunción.</li>
+   <li>Bendito sea el nombre de María, Virgen y Madre.</li>
+   <li>Bendito sea san José, su castísimo esposo.</li>
+   <li>Bendito sea Dios en sus ángeles y en sus santos. Amén.</li>
+  </ul>
+ </div>
+</section>
+
+<!-- RECURSOS -->
+<section id="recursos">
+ <div class="band negro"><svg viewBox="0 0 200 200" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="62" y="22" width="76" height="156" rx="14"/><path d="M90 36 H110"/><circle cx="100" cy="160" r="5"/><path d="M100 120 V70 M84 86 H116"/></svg></div>
+ <div class="wrap">
+  <h1>links y <strong>recursos</strong></h1>
+  <div class="sq"></div>
+  <div class="card">
+   <p class="tag">App</p>
+   <h3>confesión</h3>
+   <p>Guía y examen de conciencia para preparar tu confesión.</p>
+   <p class="priv"><b style="color:var(--rojo)">Privacidad:</b> la app no guarda datos de tus confesiones.</p>
+   <!-- ENLACE PENDIENTE: reemplazar href="#" por el link de la app -->
+   <span class="btn" style="background:#DDD;color:#777">Enlace próximamente</span>
+  </div>
+  <div class="card">
+   <p class="tag">Libro</p>
+   <h3>YouCat confesión</h3>
+   <p>Una guía cercana para jóvenes: la confesión no como castigo, sino como un abrazo de amor, paz y libertad que sana el corazón.</p>
+   <!-- ENLACE PENDIENTE: reemplazar href="#" por el link del libro -->
+   <span class="btn" style="background:#DDD;color:#777">Enlace próximamente</span>
+  </div>
+  <div class="card">
+   <p class="tag">Descarga</p>
+   <h3>este ebook en PDF</h3>
+   <p>Para guardarlo en tu teléfono o imprimirlo.</p>
+   <a class="btn r" href="assets/ebook-oracion.pdf" download>Descargar PDF ›</a>
+  </div>
+  <p class="verse">mientras conversaban, <b>Jesús se les acercó y comenzó a caminar con ellos</b></p>
+  <p class="lead" style="margin-top:8px">— Lucas 24, 15</p>
+ </div>
+</section>
+
+<footer>
+ <img src="assets/rc-logo-black.png" alt="Regnum Christi">
+ <p>espiritualidad · sección de jóvenes · GDL Norte</p>
+</footer>
+</main>
+
+<a class="fab" href="#indice" aria-label="Volver al índice">
+ <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+ Índice
+</a>
+<script>
+(function(){
+ var fab=document.querySelector('.fab'),ix=document.getElementById('indice');
+ function upd(){var r=ix.getBoundingClientRect();fab.classList.toggle('on',r.bottom<0);}
+ window.addEventListener('scroll',upd,{passive:true});upd();
+})();
+</script>
+</body>
+</html>
