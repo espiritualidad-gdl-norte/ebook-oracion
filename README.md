@@ -6,4 +6,4 @@ Página web del ebook (confesión y Hora Eucarística) de la sección de jóvene
 - Contenido: `index.html`
 - PDF descargable: `assets/ebook-oracion.pdf`
 
-Para actualizar enlaces de recursos, busca `ENLACE PENDIENTE` en `index.html`.
+Los enlaces de recursos están en la sección `#recursos` de `index.html`.
